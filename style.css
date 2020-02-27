@@ -132,14 +132,14 @@ header{
     
 
 }
-#srpski{
+#googleoffered{
     font-size: 13px;
     font-family: Arial, sans-serif;
 }
-#srpski a{
+#googleoffered a{
     text-decoration: none;
 }
-#srpski a:hover{
+#googleoffered a:hover{
     text-decoration: underline;
 }
 /*------- footer ---------*/
