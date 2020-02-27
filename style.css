@@ -1,0 +1,194 @@
+center{
+    display: block;
+    position: relative;
+    top: 50px;
+}
+ #logo{
+    margin: 20px;
+
+ }
+
+
+ /* ---search box--- */
+ .searchContainer {
+    display: flex;
+    width: 560px;
+    height: 40px;
+    padding: 5px 8px 5px 14px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+   
+    font-size: 16px;
+    font-family: sans-serif;
+
+    align-items: center;
+    justify-content: space-between;
+
+ }
+ .searchContainer:hover{
+    box-shadow: 0 0 5px 1px #bdbdbd
+ }
+
+ .searchBox{
+     height: 100%;
+     border: 0;
+     font-size: 16px;
+     flex: 1;
+     margin: 5px 5px;
+     border-right: 1px solid #bdbdbd;
+ }
+
+ .searchIcon{
+    margin: 5px;
+    color: #bdbdbd;
+ }
+ .voiceIcon{
+     margin: auto 20px;
+     color: rgb(14, 14, 206);
+
+ }
+
+ .btnContainer{
+     display: flex;
+     height: 60px;
+     width: 500px;
+     border: 0;
+     margin: 15px;
+     padding: 5px;
+     
+
+     align-items: center;
+     justify-content: center;
+ }
+ .btnContainer button{
+     background-color: #f2f2f2;
+     height: 35px;
+     width: 130px;
+     margin: 11px 6px;
+     padding: 0px 10px;
+     color: rgb(95, 99, 104);
+     border: 0;
+     border-radius: 5px;
+     font-family: Arial, sans-serif;
+     font-size: 14px;
+ }
+
+ .btnContainer button:hover{
+     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+     background-color: #f8f8f8;
+     color: #222;
+     border: 1px solid #c6c6c6;
+     cursor: pointer;
+
+ }
+ 
+/* navigation bar*/
+
+ 
+header{
+    height: 100px;
+
+}
+ .navContainer{
+     margin: 0 auto;
+ }
+
+ 
+ nav{
+     float: right;
+ }
+ 
+ nav ul{
+     margin: 0;
+     padding-right: 15px;
+     list-style: none;
+ }
+
+ nav li{
+     display: inline-block;
+     margin-left: 15px;
+     padding-top: 8px;
+     font-size: 13px;
+     font-family: Arial, sans-serif;
+     }
+ 
+ nav a{
+     color: rgba(0, 0, 0, 0.87);
+     text-decoration: none;
+ }
+ nav a:hover{
+     text-decoration: underline;
+     opacity: 0.85;
+ }
+ nav button{
+    color: #ffffff;
+    width: 70px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #4387fd;
+    border: 1px solid ;
+    border-radius: 3px;
+    font-weight: bold;
+    
+
+}
+#srpski{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+#srpski a{
+    text-decoration: none;
+}
+#srpski a:hover{
+    text-decoration: underline;
+}
+/*------- footer ---------*/
+.footerNav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+    
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: #5f6368;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    
+
+}
+.upperbar{
+    display: block; 
+    line-height: 40px;
+    font-size: 15px;
+    width: auto;
+    text-align: left;
+    padding-left: 27px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.lnav{
+    float: left;
+}
+.lnav a{
+    color: #5f6368;
+    text-decoration: none;
+    padding-left: 27px;
+}
+.lnav a:hover{
+    text-decoration: underline;
+}
+
+
+.rnav{
+    float: right;
+    margin-right: 30px;
+}
+.rnav a{
+    color: #5f6368;
+    text-decoration: none;
+    padding-left: 27px;
+}
+.rnav a:hover{
+    text-decoration: underline;
+}
